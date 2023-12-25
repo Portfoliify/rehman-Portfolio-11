@@ -7,22 +7,12 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Contactd2 from "./components/Contactd2";
 
 const Index = () => {
-  //content
-  const insta = "";
-  const email = "mailto:"+"";
+  //Content
 
-  const [para, setpara] = useState(
-    "Hi I’m Daniel Aristizábal, but call me Dani. I work as an art director " +
-      "and digital artist working across the fields of arts, fashion and " +
-      "entertainment, bringing forward new technologies to create stunning " +
-      "and inspiring artworks"
-  );
-
-  const [logo, setLogo] = useState();
-  const [arrayimgs, setarrayimgs] = useState([]);
-
-
-  //contents
+       const insta = "https://instagram.com";
+      const email = "mailto:rehmnshs@gmail.com";
+      const para = "Mohan "
+//Content
   const router = createBrowserRouter([
     {
       path: "/",
